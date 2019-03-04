@@ -9,11 +9,14 @@ class App extends Component {
 		commaData: []
 	}
   componentDidMount () {
-  	axios.get('http://localhost:8080/api/comma-data')
+  	axios.get('http://3.18.93.156/api/comma-data')
       .then( (res) => {
       	this.setState( {
       		commaData: res.data
       	})
+      })
+      .catch ( (err) => {
+        console.log('err', err)
       })
   }
   render() {
