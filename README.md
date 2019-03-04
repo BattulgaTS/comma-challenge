@@ -9,7 +9,7 @@ Reverse proxy server - Nginx (https://www.nginx.com/)
 
 
 #### App Details
-Live demo is on AWS EC2. Access url https://3.18.93.156.
+Live demo is on AWS EC2. Access url http://3.18.93.156.
 
 ![enter image description here](https://lh3.googleusercontent.com/9weSpcU0I9votT4DJ3ijBEV5WmUdgDUYCTyNUU71u-ZNcT97y9xAhh9ss7ylFBW24Yet0GxT5F4)
 
